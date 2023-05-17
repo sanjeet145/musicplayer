@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="icon" href="./images/icon.jpg">
+    <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+    <div class="main">
+        <div class="buttons color">
+            <span class="prev"><img onclick="prev()" src="./images/previous2 (1).png">
+            </span>
+            <span ><img onclick="song()" src="./images/play.png" id="icon">
+            </span>
+            <span class="next">
+                <img onclick="next()" src="./images/next1 (1).png">
+            </span>
+        </div>
+    </div>
+    <audio id="music" src="./audio/song1.mp3">
+    </audio>
+    <script src="global.js"></script>
+</body>
+</html>
